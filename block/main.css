@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 384px;
+    min-height: 611px;
+    border-radius: 3%;
+    background-color:hsl(0, 0%, 12%);
+}
+@media screen and (max-width: 768px){
+    .main{
+        width: 456px;
+    }
+
+}@media screen and (max-width: 500px){
+    .main{
+        width: 327px;
+    }
+
+}

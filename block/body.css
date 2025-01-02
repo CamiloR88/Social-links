@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/static/Inter-Bold.ttf") format(woff);
+}
+.page{
+    background-color:hsl(0, 0%, 8%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+    grid-column: 1/1;
+    grid-row: 1/2;
+
+}
+.attribution{
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    justify-self: flex-end;
+    grid-column: 1/1;
+    grid-row: 2/2;
+
+}
